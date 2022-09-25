@@ -1,5 +1,5 @@
 <?php
-class controller-latihan1 extends CI_Controller
+class controller_latihan1 extends CI_Controller
 {
     public function index()
     {
