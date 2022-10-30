@@ -63,7 +63,7 @@ class datasiswa extends CI_Controller
                         'Jen_kel' => $this->input->post('Jen_kel'),
                         'Agama' => $this->input->post('Agama')
                     ];
-            $this->load->view('data_siswa', $data);
+            $this->load->view('view-form-siswa', $data);
         }
     }
 }
